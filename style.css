@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    height: 500px;
+    width: 500px;
+    background-color: rgba(97,67,67,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 40px;
+    position: relative;
+
+}
+.username {
+    height: 40px;
+    width: 400px;
+    font-size: 30px;
+    background-color: rgba(79,32,32,0.1);
+    border: 1px solid white;
+    padding-left: 10px;
+
+}
+.password {
+    height: 40px;
+    width: 400px;
+    font-size: 30px;
+    background-color: rgba(79,32,32,0.1);
+    border: 1px solid white;
+    padding-left: 10px;
+
+}
+.login {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: white;
+}
+.pic1 {
+    height: 32px;
+    width: 32px;
+}
+.pic2 {
+    background: url("css_sprites.png") -270px -10px;
+}
+.pic3 {
+    background: url("css_sprites.png") -114px -10px;
+}
+.pic4 {
+    background: url("css_sprites.png")-10px -10px;
+}
+.pic2:hover {
+    background: url("css_sprites.png")-218px -10px;
+}
+.pic3:hover {
+    background: url("css_sprites.png")-166px -10px;
+}
+.pic4:hover {
+    background: url("css_sprites.png")-62px -10px;
+}
+.forgotpassword {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    flex-grow: 0.5;
+}
+.iconflex {
+    display: flex;
+    justify-content: center;
+}
+.h1 {
+    font-size: 18px;
+    font-family: Arial;
+    color: white;
+}
+.human {
+    background: url("002-reading.png");
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 67px;
+    right:67px ;
+
+}
+.locker {
+    background: url("001-locked.png");
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    right: 67px;
+    top: 131px;
+
+}
